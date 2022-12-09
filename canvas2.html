@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+<script>
+	function f1()
+	{
+			var canvas = document.getElementById("cobaan");
+			context= canvas.getContext("2d");
+			context.fillStyle="rgb(0,222,255)";
+			context.fillRect(10,30,200,100);
+			//context.fillRound(100,300,100);
+			//var c = document.getElementById("bunder");
+			var ctx=canvas.getContext("2d");
+			ctx.beginPath();
+			ctx.arc(95,50,40,0,2*Math.PI);
+			ctx.stroke();
+	}
+</script>
+<body onload="f1();">
+	<canvas id="cobaan" height="100" width="200"></canvas>
+</body>
+</html>

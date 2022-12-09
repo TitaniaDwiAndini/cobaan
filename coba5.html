@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="GET">
+    <fieldset>
+        <table align="center">
+            <tr>
+                <td>NIM</td>
+                <td><input type="number" name="txtnim" maxlength="8" id="" size="10" placeholder="Isi NIM" required></td>
+            </tr>
+            <tr>
+                <td>Nama</td>
+                <td><input type="text" name="txtnama" id="" pattern="[a-zA-Z ]{1,20}" required></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="txtpass" id="" placeholder="Minimum 8 karakter"></td>
+            </tr>
+            <tr>
+                <td>Pilihan UKM</td>
+                <td><input type="checkbox" name="txtvoa" id=""> VOA 
+                    <input type="checkbox" name="txtasmic" id=""> ASMIC
+                    <input type="checkbox" name="txthmj" id="" checked> HMJ
+                </td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td><input type="radio" name="txtjkel" id="" value="P"> Pria
+                    <input type="radio" name="txtjkel" id="" value="W" checked> Wanita
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input name="password" type="password" id="password" pattern="^(?=[a-zA-Z])(?=.*[0-9])(?=.*[#\$_])(?=.*[A-Z])(?=.*[a-z])(?!.*[^a-zA-Z0-9#\$_])(?!.*\s).{8,12}$" title="Password must be 8-12 characters, have at least one uppercase letter, at least on lowercase letter, at least one number, and one special charater #\$_ The first character must be a character upper or lower, and no spaces allowed." required/>
+
+                    <!-- <input type="email" name="txtemail" id="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"> -->
+                </td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td><textarea name="txtalmt" id="" cols="20" rows="2"></textarea></td>
+            </tr>
+            <tr>
+                <td>Jurusan</td>
+                <td>
+                    <select name="txtjur" id="">
+                    <optgroup label="FTD">
+                        <option value="TI">Teknik Informatika</option>
+                        <option value="SK">Sistem Komputer</option>
+                        <option value="DKV">Desain Komunikasi Visual</option>
+                    </optgroup>
+                    <optgroup label="FEB">
+                        <option value="AK">Akuntansi</option>
+                        <option value="MAN">Manajemen</option>
+                    </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Kirim" name="cmdkirim"></td>
+                <td><input type="reset" value="Bersih" name="cmdbersih"></td>
+            </tr>
+        </table>
+    </fieldset>
+    </form>
+</body>
+</html>

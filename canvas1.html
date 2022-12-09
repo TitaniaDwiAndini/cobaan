@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Canvas Test</title>
+</head>
+<script>
+	function f1()
+	{
+			var canvas = document.getElementById("cobaan");
+			context= canvas.getContext("2d");
+			context.fillStyle="rgb(0,0,255)";
+			context.fillRect(10,20,200,100);
+	}
+
+</script>
+<body onload="f1();">
+	<canvas id="cobaan" height="100" width="200"></canvas>
+</body>
+</html>

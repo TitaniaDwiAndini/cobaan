@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script type="text/javascript">
+function validasi() {
+    var value = document.getElementById("input1").value;
+    if (isNaN(value)){
+        modifier="not";
+    } else {
+        modifier ="";
+    }
+    var report = "You entered '" + value + "'; this is " + modifier + " a valid number.";
+    alert(report);
+}
+</script>
+<body>
+    <h1>Validasi inputan</h1>
+    <form name="kalkulator">
+        <input type="text" id="input1"/>
+        <button type="button" onclick="validasi();">Klik untuk melihat inputan</button>
+    </form>
+</body>
+</html>

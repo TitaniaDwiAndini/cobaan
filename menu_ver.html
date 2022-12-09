@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style type="text/css">
+ul {
+    list-style: none;
+    font-family: arial;
+    text-align: center;
+    padding: 0;
+}
+ul li {
+    width: 100px;
+    /*float: left;*/
+}
+li ul {
+    display: none;
+    position: relative;
+    left : 100px;
+    bottom : 25px;
+    height: 0;
+}
+a {
+    text-decoration: none;
+    display: block;
+    background-color: yellow;
+    line-height: 20pt;
+}
+a:hover {
+    background-color: grey;
+}
+li:hover ul {
+    display: block;
+}
+</style>
+<body>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Produk</a>
+            <ul>
+                <li><a href="">Software</a></li>
+                <li><a href="">Hardware</a></li>
+                <li><a href="">Brainware</a></li>
+            </ul>
+        </li>
+        <li><a href="">Contact Us</a>
+        <ul>
+            <li><a href="">Marketing</a></li>
+            <li><a href="">Produksi</a></li>
+        </ul>
+        </li>
+    </ul>
+</body>
+</html>

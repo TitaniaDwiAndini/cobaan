@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <section id="atas"></section>
+    <table width="80%" border="0" align="center" cellspacing="5" bgcolor="Khaki">
+        <tr>
+            <td colspan="7" height="20%" ><img src="gambar/gedung.jpg" alt="" width="100%" height="100%"></td>
+        </tr>
+        <tr align="center">
+            <td width="10%" bgcolor="darkkhaki"></td>
+            <td bgcolor="darkkhaki"><a href="index.html">Home</a></td>
+            <td bgcolor="darkkhaki"><a href="index.html#produk">Product</a></td>
+            <td bgcolor="darkkhaki"><a href="gallery.html">Gallery</a></td>
+            <td bgcolor="darkkhaki"><a href="chart.html">S-Chart</a></td>
+            <td bgcolor="darkkhaki"><a href="contact.html">Contact Us</a></td>
+            <td width="10%" bgcolor="darkkhaki"></td>
+        </tr>
+        <tr>
+            <td colspan="7" bgcolor="white"><h1 align="center">
+                Formulir</h1>
+                <section id="atas">
+                    <table width="80%" align="center" bgcolor="white" border="0" cellpadding="10" cellspacing="5">
+                        <tr>
+                            <td width = "15%" bgcolor="grey"><a href="#satu">Daftar Member</a></td>
+                            <td rowspan="4">
+                                    <section id="satu">
+                                            <center><font size="6" color="maroon" face="arial black">Daftar Anggota</font></center>
+                                            <form action="" method="POST">
+                                                    <fieldset>
+                                                        <table align="center">
+                                                            <tr>
+                                                                <td>NIM *</td>
+                                                                <td><input type="number" name="txtnim" maxlength="8" id="" size="10" placeholder="Isi NIM" required></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Nama *</td>
+                                                                <td><input type="text" name="txtnama" id="" pattern="[a-zA-Z ]{1,20}" required></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Password *</td>
+                                                                <td><input type="password" name="txtpass" id="" placeholder="Minimum 8 karakter"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Pilihan UKM *</td>
+                                                                <td><input type="checkbox" name="txtvoa" id=""> VOA 
+                                                                    <input type="checkbox" name="txtasmic" id=""> ASMIC
+                                                                    <input type="checkbox" name="txthmj" id="" checked> HMJ
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Jenis Kelamin</td>
+                                                                <td><input type="radio" name="txtjkel" id="" value="P"> Pria
+                                                                    <input type="radio" name="txtjkel" id="" value="W" checked> Wanita
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Email *</td>
+                                                                <td><input type="email" name="txtemail" id="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Alamat</td>
+                                                                <td><textarea name="txtalmt" id="" cols="20" rows="2"></textarea></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Jurusan</td>
+                                                                <td>
+                                                                    <select name="txtjur" id="">
+                                                                    <optgroup label="FTD">
+                                                                        <option value="TI">Teknik Informatika</option>
+                                                                        <option value="SK">Sistem Komputer</option>
+                                                                        <option value="DKV">Desain Komunikasi Visual</option>
+                                                                    </optgroup>
+                                                                    <optgroup label="FEB">
+                                                                        <option value="AK">Akuntansi</option>
+                                                                        <option value="MAN">Manajemen</option>
+                                                                    </optgroup>
+                                                                    </select>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td></td>
+                                                                <td></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><input type="submit" value="Kirim" name="cmdkirim"></td>
+                                                                <td><input type="reset" value="Bersih" name="cmdbersih"></td>
+                                                            </tr>
+                                                        </table>
+                                                    </fieldset>
+                                                    </form>
+                                                
+                                    </section>
+                                    <section id="dua">
+                                        <center><font size="6" color="maroon" face="arial black">Buku Tamu</font></center>
+                                    </section>
+                                    <section id="tiga">
+                                            <center><font size="6" color="maroon" face="arial black">Daftar Produk</font></center>
+                                        </section>
+                                Kembali ke <a href="#atas">Atas</a>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="grey"><a href="#dua">Buku Tamu</a></td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="grey"><a href="#tiga">Daftar Produk</a></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="5"></td>
+                        </tr>
+                </table>
+                </section>
+            </td>
+        </tr>
+        <tr>
+           <td colspan="7" align="center" bgcolor="darkkhaki">copyright Client Side Programming Class &copy;2020</td>
+        </tr>
+    </table>
+</body>
+</html>
